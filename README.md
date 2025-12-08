@@ -14,9 +14,9 @@ Install apache2-utils
 sudo apt install apache2-utils -y
 `
 
-Create a login and password (f.e., login: test)
+Create a login and password (f.e., login: stl)
 
-`sudo htpasswd -c /home/user/userhub/auth.test test`
+`sudo htpasswd -c /home/user/userhub/auth.stl stl`
 
 Enter password
 
