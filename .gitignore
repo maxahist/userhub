@@ -5,3 +5,4 @@ __pycache__/
 .env
 auth.stl
 venv/
+backend/venv/
