@@ -29,3 +29,5 @@ Run docker compose
 - react
 - postgres
 - nginx
+- fastapi
+- alembic

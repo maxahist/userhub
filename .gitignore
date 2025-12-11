@@ -6,3 +6,4 @@ __pycache__/
 auth.stl
 venv/
 backend/venv/
+backend/migrations
