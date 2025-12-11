@@ -64,17 +64,6 @@ services:
     restart: unless-stopped
     networks:
       - userhub-network
-
-  migrate:
-    build: ./backend
-    command: alembic upgrade head
-    env_file:
-      - .env
-    depends_on:
-      - postgres
-    profiles: ["tools"]
-
-
     
 volumes:
   postgres_data:

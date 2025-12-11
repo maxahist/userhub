@@ -25,9 +25,9 @@ Run docker compose
 `docker compose up --build`
 
 ## Stack
-- python
-- react
+- python - fastapi - alembic
+- react - vite - tailwind
 - postgres
 - nginx
-- fastapi
-- alembic
+- docker - docker compose
+
